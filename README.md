@@ -5,6 +5,8 @@ project.
 
 Yes, you would have builder building builder.
 
+This is only used as a common environment for debugging builder and infrastructure issues.
+
 This repository should be structured as any Saltstack formula should, but it 
 should also conform to the structure required by the [builder](https://github.com/elifesciences/builder) 
 project.
