@@ -1,4 +1,13 @@
 base:
     '*':
         - elife
+        - elife.aws-cli
+        - elife.kubectl
+        - elife.php7
+        - elife.composer
+        - elife.proofreader-php
+        - elife.helm
+        - builder.pluto
+        - builder.flux
         - builder
+        - builder.phpdev

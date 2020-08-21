@@ -5,6 +5,18 @@ project.
 
 Yes, you would have builder building builder.
 
+This is only used as a common environment for debugging builder and infrastructure issues.
+
+It contains:
+
+* AWS CLI tools
+* Python 2 and 3
+* PHP 7.2, Phive, Yarn, Composer and eLife's PHP linting tool [proofreader](https://github.com/elifesciences/proofreader-php)
+* kubectl, helm, pluto, fluxctl
+* and the [builder](https://github.com/elifesciences/builder) project installed at `~/builder`
+
+---
+
 This repository should be structured as any Saltstack formula should, but it 
 should also conform to the structure required by the [builder](https://github.com/elifesciences/builder) 
 project.
