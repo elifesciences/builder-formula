@@ -6,6 +6,7 @@ base:
         - elife.php7
         - elife.composer
         - elife.proofreader-php
-        - pluto
+        - elife.helm
+        - builder.pluto
         - builder
         - builder.phpdev
