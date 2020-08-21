@@ -9,6 +9,8 @@ phive:
             gpg --verify phive.phar.asc phive.phar
             chmod +x phive.phar
             sudo mv phive.phar /usr/local/bin/phive
+        - unless:
+            - test -f /usr/local/bin/phive
 
 php-fixer:
     cmd.run:

@@ -8,5 +8,6 @@ base:
         - elife.proofreader-php
         - elife.helm
         - builder.pluto
+        - builder.flux
         - builder
         - builder.phpdev
