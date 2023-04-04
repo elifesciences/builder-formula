@@ -10,5 +10,5 @@ base:
         - elife.helm
         - builder.pluto
         - builder.flux
-        - builder
         - builder.phpdev
+        - builder

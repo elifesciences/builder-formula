@@ -32,26 +32,6 @@ vault-symlink:
         - require:
             - vault-binary
 
-terraform binary:
-    file.managed:
-        - name: /root/terraform-0.11.14.zip
-        - source: https://releases.hashicorp.com/terraform/0.11.14/terraform_0.11.14_linux_amd64.zip
-        - source_hash: c0451cb56abe5b1565fdf1d65950b566
-
-    archive.extracted:
-        - name: /opt/terraform/
-        - source: /root/terraform-0.11.14.zip
-        - enforce_toplevel: False
-        - require:
-            - file: terraform binary
-
-terraform symlink:
-    file.symlink:
-        - name: /usr/local/bin/terraform
-        - target: /opt/terraform/terraform
-        - require:
-            - terraform binary
-
 configure builder:
     cmd.run:
         - cwd: /home/{{ user }}/builder
