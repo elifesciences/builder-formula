@@ -11,7 +11,7 @@ It contains:
 
 * AWS CLI tools
 * Python 2 and 3
-* PHP 7.2, Phive, Yarn, Composer and eLife's PHP linting tool [proofreader](https://github.com/elifesciences/proofreader-php)
+* PHP 7.2, Phive, Yarn, Composer
 * kubectl, helm, pluto, fluxctl
 * and the [builder](https://github.com/elifesciences/builder) project installed at `~/builder`
 

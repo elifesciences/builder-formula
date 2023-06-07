@@ -6,7 +6,6 @@ base:
         - elife.kubeseal
         - elife.php7
         - elife.composer
-        - elife.proofreader-php
         - elife.helm
         - builder.pluto
         - builder.flux
