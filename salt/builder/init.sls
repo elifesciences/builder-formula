@@ -36,8 +36,7 @@ configure builder:
     cmd.run:
         - cwd: /home/{{ user }}/builder
         - user: {{ user }}
-        - name: ./update.sh --exclude virtualbox vagrant ssh-agent
+        - name: ./update.sh --exclude all
         - require:
-            - terraform symlink
             - vault-symlink
             - builder repo
